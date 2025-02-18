@@ -18,7 +18,7 @@ def htop():
     username = subprocess.check_output(['whoami']).decode('utf-8').strip()
     
     # Format the response
-    response = f"""Name: sample_name
+    response = f"""Name: Shriyansh Agarwal
 user: {username}
 Server Time (IST): {ist_time.strftime('%Y-%m-%d %H:%M:%S.%f')}
 TOP output:
